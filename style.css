@@ -28,10 +28,11 @@ body {
 #nav a {
   text-decoration: none;
   color: #b4b4b4;
+  transition: 1.5s;
 }
 
 #nav a:hover {
-  color: #000 !important;
+  color: #e91b00 !important;
   font-style: italic;
 }
 
@@ -69,7 +70,7 @@ body {
 }
 
 .projectname a:hover {
-  color: #fff;
+  color: #e91b00;
   font-style: italic;
 }
 
@@ -101,4 +102,13 @@ body {
 .projectname:nth-child(5):hover ~ .bg img:nth-child(5),
 .projectname:nth-child(6):hover ~ .bg img:nth-child(6) {
   opacity: 1;
+  filter: brightness(50%);
+}
+
+#mouse {
+  height: 25px;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  transition: 2s;
 }
