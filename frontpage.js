@@ -1,6 +1,11 @@
 function changeintroover() {
   document.getElementById("intro").style.cssText =
     "padding-right: 15vw; font-style: italic; font-weight: 200; transition: 1.25s; opacity:0; pointer-events:none;";
+  document.getElementById("st1").style.cssText =
+    "fill:#e91B00; fill-opacity:0.35; stroke:#e91B00;stroke-width:1.5;stroke-miterlimit:10;";
+  document.getElementById("st0").style.fill = "white";
+  document.getElementById("st2").style.stroke = "white";
+  document.getElementById("st3").style.stroke = "white";
   var x = document.getElementsByClassName("navlink");
   var i;
   for (i = 0; i < x.length; i++) {
@@ -11,6 +16,11 @@ function changeintroover() {
 function changeintroout() {
   document.getElementById("intro").style.cssText =
     "padding-right: 15vw; font-style: italic; font-weight: 200; transition: 2s; opacity:1;";
+  document.getElementById("st1").style.cssText =
+    "fill:#000; fill-opacity:0.35; stroke:#000;stroke-width:1.5;stroke-miterlimit:10;";
+  document.getElementById("st0").style.fill = "white";
+  document.getElementById("st2").style.stroke = "white";
+  document.getElementById("st3").style.stroke = "white";
   var x = document.getElementsByClassName("navlink");
   var i;
   for (i = 0; i < x.length; i++) {
