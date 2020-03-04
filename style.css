@@ -6,6 +6,18 @@ body {
   font-weight: 300;
 }
 
+h1 {
+  font-weight: 200;
+  font-style: italic;
+  font-size: calc(16px + 2.5vw);
+}
+
+h2 {
+  font-weight: 200;
+  font-style: italic;
+  font-size: calc(12px + 1vw);
+}
+
 #nav {
   position: fixed;
   margin-top: 25px;
@@ -39,13 +51,10 @@ body {
 #projects {
   padding-left: calc(34vw - 50px);
   padding-top: 150px;
-  font-size: calc(16px + 2.5vw);
+  padding-right: 16vw;
 }
 
 #intro {
-  padding-right: 15vw;
-  font-style: italic;
-  font-weight: 200;
   transition: 1s;
 }
 
@@ -67,6 +76,7 @@ body {
   color: #b4b4b4;
   transition: color 0.5s;
   font-weight: 200;
+  font-size: calc(16px + 2.5vw);
 }
 
 .projectname a:hover {
@@ -109,6 +119,28 @@ body {
   height: 25px;
   position: fixed;
   bottom: 20px;
-  right: 10px;
-  transition: 2s;
+  left: calc(34vw - 150px);
+  transition: 1s;
+}
+
+@media screen and (max-aspect-ratio: 16/10) {
+  #mouse {
+    visibility: hidden;
+  }
+}
+
+.abouttext a {
+  text-decoration: none;
+  color: #b4b4b4;
+  font-style: normal;
+  transition: 1.5s;
+}
+
+.abouttext a:hover {
+  font-style: italic;
+  color: #e91b00 !important;
+}
+
+.abouttext {
+  line-height: 1.4;
 }
