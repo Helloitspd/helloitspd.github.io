@@ -16,6 +16,7 @@ h2 {
   font-weight: 200;
   font-style: italic;
   font-size: calc(12px + 1vw);
+  transition: 0.5s;
 }
 
 #nav {
@@ -143,4 +144,24 @@ h2 {
 
 .abouttext {
   line-height: 1.4;
+}
+
+#projectinfo {
+  width: 100%;
+  font-size: 12px;
+  table-layout: fixed;
+}
+
+.projectinfovalue {
+  text-align: right;
+}
+
+@media screen and (max-width: 1000px) {
+  #projectinfo {
+    display: none;
+  }
+}
+
+.imagelist li {
+  display: inline;
 }
