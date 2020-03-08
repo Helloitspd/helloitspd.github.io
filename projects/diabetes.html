@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Live Your Dreams | Grab X Disney</title>
+    <title>PD | Diabetes: A Living Hell — Schoolwork</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/style.css" />
-    <script type="text/javascript" src="frontpage.js"></script>
+    <script type="text/javascript" src="/projectpages.js"></script>
     <link
       href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,700,700i,900,900i&display=swap"
       rel="stylesheet"
@@ -21,56 +21,75 @@
           <li><a href="/contact.html" class="navlink">Contact</a></li>
         </ul>
       </div>
-      <div id="projects">
-        <video width="100%" src="/Assets/projects/Disney Grab_60secs_SG_MY_PH_20191118(Medium Bitrate).mp4" controls></video>
-        <h2>Live your dreams</h2>
+      <div class="projectslider">
+        <!--slider button-->
+      <button class="sliderbutton" id="prevBtn" onclick="plusSlides(-1)">
+        <svg class="prev" width=20px xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="17.1 23.5 6.9 12.3 17.1 0.5"/></svg>
+      </button>
+      <!--slidercontainer-->
+      <div class="projectcarouselslide">
+        <div class="mySlides fade block">
+          <a href="#img1"><img src="/Assets/projectname/HellScapeReworkLowRes.jpg" width=100%></a>
+          <a href="#_" class="lightbox" id="img1">
+            <img src="/Assets/projectname/HellScapeReworkLowRes.jpg">
+            <p>Main KV</p>
+          </a>
+        </div>
+        <div class="mySlides fade">
+          <a href="#img2"><img src="/Assets/projects/LH_1.jpg" width=50% class="imgcenter"></a>
+          <a href="#_" class="lightbox" id="img2">
+            <img src="/Assets/projects/LH_1.jpg">
+            <p>"Eat Your Heart Out"</p>
+          </a>
+        </div>
+        <div class="mySlides fade">
+          <a href="#img3"><img src="/Assets/projects/LH_2.jpg" width=50% class="imgcenter"></a>
+          <a href="#_" class="lightbox" id="img3">
+            <img src="/Assets/projects/LH_2.jpg">
+            <p>"An Eye for a Tooth, An Eye for a Tooth"</p>
+          </a>
+        </div>
+        <div class="mySlides fade">
+          <a href="#img4"><img src="/Assets/projects/LH_3.jpg" width=50% class="imgcenter"></a>
+          <a href="#_" class="lightbox" id="img4">
+            <img src="/Assets/projects/LH_3.jpg">
+            <p>"All Work and No Play Makes Jack a Diabetic"</p>
+          </a>
+        </div>
+      </div>
+      <!--Sliderbutton-->
+      <button class="sliderbutton" onclick="plusSlides(1)"> 
+        <svg class="next" width=20px xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="6.9 0.5 17.1 11.7 6.9 23.5"/></svg>
+      </button>
+      </div>
+      <div id="projectstory">
+        <h2>Diabetes: A Living Hell</h2>
         <table id="projectinfo">
             <tr>
-                <td>Client</td>
-                <td class="projectinfovalue">Grab, Disney</td>
+                <td>School</td>
+                <td class="projectinfovalue">Glasgow School of Art (Singapore)</td>
                 <td></td>
-                <td>Film Production</td>
-                <td class="projectinfovalue">Passion Pictures Malaysia</td>
-            </tr>
-            <tr>
-                <td>Agency</td>
-                <td class="projectinfovalue">72andSunny Singapore</td>
                 <td></td>
-                <td>Director</td>
-                <td class="projectinfovalue">Brandon Loh</td>
-            </tr>
-            <tr>
-                <td>Creative Director</td>
-                <td class="projectinfovalue">Daniel Ko</td>
                 <td></td>
-                <td>Photography</td>
-                <td class="projectinfovalue">Wala Wala Pictures</td>
             </tr>
-            <tr>
-                <td>Junior Writer and Art Director</td>
-                <td class="projectinfovalue">Ang Peng Da</td>
-            </tr>
-            </table>
+        </table>
         <p>
-            Grab partnered with Disney for the launch of Frozen 2 in Southeast Asia. Inspired by the theme of the movie, we created a campaign to encourage parents to let their children live their dreams, no matter what they may be.
+          Singapore has been on war against diabetes for many years. But despite the many efforts to curb the disease, the number of diabetics remains on the rise. Many campaigns have tried to tackle the issues with messaging meant for everyone, young and old. As a result, many younger Singaporeans tend to think that they would only need to be concerned in their later years.
         </p>
-        <ul class="imagelist">
-          <li>
+        <p>
+          However, Type 2 diabetes is a result of the lifestyle choices a person makes since young. I felt that there needed to be a harder hitting campaign to drive the message home for the younger generation. Inspired by how religion plays an important role in nurturing values, the campaign juxtaposed the horrors and suffering of hell against the disease.
+        </p>
+        <div id="separator"></div>
+        <section>
+          <p><h3>View Other Projects</h3></p>
+          <p><h3><a href="/projects/liveyourdreams.html">Live Your Dreams</a></h3></p>
+          <p><h3><a href="/projects/soundbites.html" id="b">Soundbites</h3></p>
+          <p><h3><a href="/projects/Unlimited.html" id="b">Unlimited Posters</h3></p>
+          <p><h3><a href="/projects/pong.html">Pong the Chatbot</a></h3></p>
+          <p><h3><a href="/projects/whopper.html">Recovery Whopper</a></h3></p>
+          <p><h3><a href="/projects/trashbook.html">Trashbook </a></h3></p>
+      </section>
 
-          </li>
-          <li>
-            
-          </li>
-        </ul>
-        <p>
-            Aside from the film that you see above, we also made little changes within the Grab app. During the campaign period, the app and vehicles were given a Frozen themed skin. We also added a challenge mechanic that rewarded users with movie tickets upon completion.
-        </p>
-        <p>
-            We also had a small microsite for users to find more in-depth information. This site also featured the half-and-half key visual.
-        </p>
-        <p>
-            Most of the visuals in this campaign were handled by me, with additional support from Mark Ng and Zara Kok. I also helped write some of the scripts, including the following one that the team was very excited for, but was not produced. This is how it looks after my creative director, Daniel Ko, had cleaned it up.
-        </p>
       </div>
   </body>
 </html>

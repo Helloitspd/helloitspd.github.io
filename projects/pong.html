@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Live Your Dreams | Grab X Disney</title>
+    <title>PD | Pong the Chatbot — GrabFood</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/style.css" />
-    <script type="text/javascript" src="frontpage.js"></script>
+    <script type="text/javascript" src="/projectpages.js"></script>
     <link
       href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,700,700i,900,900i&display=swap"
       rel="stylesheet"
@@ -21,56 +21,71 @@
           <li><a href="/contact.html" class="navlink">Contact</a></li>
         </ul>
       </div>
-      <div id="projects">
-        <video width="100%" src="/Assets/projects/Disney Grab_60secs_SG_MY_PH_20191118(Medium Bitrate).mp4" controls></video>
-        <h2>Live your dreams</h2>
+      <div class="projectslider">
+        <!--slider button-->
+      <button class="sliderbutton" id="prevBtn" onclick="plusSlides(-1)">
+        <svg class="prev" width=20px xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="17.1 23.5 6.9 12.3 17.1 0.5"/></svg>
+      </button>
+      <!--slidercontainer-->
+      <div class="projectcarouselslide">
+        <div class="mySlides fade block">
+          <img src="/Assets/projectname/Pong.png" width=100%>
+        </div>    
+        <div class="mySlides fade">
+          <img src="/Assets/projects/Pong2-01.png" width=100%>
+        </div>
+        <div class="mySlides fade">
+          <img src="/Assets/projects/Pong3-01.png" width=100%>
+        </div>
+      </div>
+      <!--Sliderbutton-->
+      <button class="sliderbutton" onclick="plusSlides(1)"> 
+        <svg class="next" width=20px xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="6.9 0.5 17.1 11.7 6.9 23.5"/></svg>
+      </button>
+      </div>
+      <div id="projectstory">
+        <h2>Pong the Chatbot</h2>
         <table id="projectinfo">
-            <tr>
-                <td>Client</td>
-                <td class="projectinfovalue">Grab, Disney</td>
-                <td></td>
-                <td>Film Production</td>
-                <td class="projectinfovalue">Passion Pictures Malaysia</td>
-            </tr>
-            <tr>
-                <td>Agency</td>
-                <td class="projectinfovalue">72andSunny Singapore</td>
-                <td></td>
-                <td>Director</td>
-                <td class="projectinfovalue">Brandon Loh</td>
-            </tr>
-            <tr>
-                <td>Creative Director</td>
-                <td class="projectinfovalue">Daniel Ko</td>
-                <td></td>
-                <td>Photography</td>
-                <td class="projectinfovalue">Wala Wala Pictures</td>
-            </tr>
-            <tr>
-                <td>Junior Writer and Art Director</td>
-                <td class="projectinfovalue">Ang Peng Da</td>
-            </tr>
-            </table>
+          <tr>
+              <td>Client</td>
+              <td class="projectinfovalue">GrabFood</td>
+              <td></td>
+              <td>Art Director</td>
+              <td class="projectinfovalue">Scott Miao</td>
+          </tr>
+          <tr>
+              <td>Agency</td>
+              <td class="projectinfovalue">72andSunny Singapore</td>
+              <td></td>
+              <td>Junior Writer</td>
+              <td class="projectinfovalue">Ang Peng Da</td>
+          </tr>
+          <tr>
+              <td>Creative Lead</td>
+              <td class="projectinfovalue">Isaac Tan</td>
+              <td></td>
+              <td></td>
+              <td></td>
+          </tr>
+          <tr>
+          </tr>
+          </table>
         <p>
-            Grab partnered with Disney for the launch of Frozen 2 in Southeast Asia. Inspired by the theme of the movie, we created a campaign to encourage parents to let their children live their dreams, no matter what they may be.
-        </p>
-        <ul class="imagelist">
-          <li>
-
-          </li>
-          <li>
-            
-          </li>
-        </ul>
-        <p>
-            Aside from the film that you see above, we also made little changes within the Grab app. During the campaign period, the app and vehicles were given a Frozen themed skin. We also added a challenge mechanic that rewarded users with movie tickets upon completion.
+          With Indonesia becoming one of Southeast Asia’s largest ecommerce markets, it has become quintessential for companies to offer customer services around the clock in the digital space. And this is no exception for GrabFood, who came to us to develop a more memorable experience for their chatbot on Line.
         </p>
         <p>
-            We also had a small microsite for users to find more in-depth information. This site also featured the half-and-half key visual.
+          We turned the experience into a small game where users could level up their grain-of-rice-buddy, Pong. From finding food deals to recommended restaurants, each interaction helped Pong level up with fancier outfits.
         </p>
-        <p>
-            Most of the visuals in this campaign were handled by me, with additional support from Mark Ng and Zara Kok. I also helped write some of the scripts, including the following one that the team was very excited for, but was not produced. This is how it looks after my creative director, Daniel Ko, had cleaned it up.
-        </p>
+        <div id="separator"></div>
+        <section>
+          <p><h3>View Other Projects</h3></p>
+          <p><h3><a href="/projects/liveyourdreams.html">Live Your Dreams</a></h3></p>
+          <p><h3><a href="/projects/soundbites.html" id="b">Soundbites</h3></p>
+          <p><h3><a href="/projects/Unlimited.html" id="b">Unlimited Posters</h3></p>
+          <p><h3><a href="/projects/pong.html">Pong the Chatbot</a></h3></p>
+          <p><h3><a href="/projects/whopper.html">Recovery Whopper</a></h3></p>
+          <p><h3><a href="/projects/trashbook.html">Trashbook </a></h3></p>
+      </section>          
       </div>
   </body>
 </html>
