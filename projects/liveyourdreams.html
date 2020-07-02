@@ -5,12 +5,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/style.css" />
-    <script type="text/javascript" src="/projectpages.js"></script>
+    
     <link
       href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,700,700i,900,900i&display=swap"
       rel="stylesheet"
     />
     <link rel="icon" href="" />
+    <script type="text/javascript" src="/projectpages.js"></script>
   </head>
   <body>
     <div id="container">
@@ -21,65 +22,18 @@
           <li><a href="/contact.html" class="navlink">Contact</a></li>
         </ul>
       </div>
-      <!-- slider-->
-      <div class="projectslider">
-        <!--slider button-->
-      <button class="sliderbutton" id="prevBtn" onclick="plusSlides(-1)">
-        <svg class="prev" width=20px xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="17.1 23.5 6.9 12.3 17.1 0.5"/></svg>
-      </button>
-      <!--slidercontainer-->
-      <div class="projectcarouselslide">
-        <div class="mySlides fade block">
-          <video width=100%; src="/Assets/projects/Disney Grab_60secs_SG_MY_PH_20191118(Medium Bitrate).mp4" controls></video>
-        </div>    
-        <div class="mySlides fade">
-          <a href="#img1"><img width=100% src="/Assets/projects/croppedKV.png" style="width:100%"></a>
-          <a href="#_" class="lightbox" id="img1">
-            <img src="/Assets/projects/croppedKV.png">
-          </a>
-          
-        </div>
-      </div>
-      <!--Sliderbutton-->
-      <button class="sliderbutton" onclick="plusSlides(1)"> 
-        <svg class="next" width=20px xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="6.9 0.5 17.1 11.7 6.9 23.5"/></svg>
-      </button>
-      </div>
       <div id="projectstory">
+        <video width="100%" src="/Assets/projects/Disney Grab_60secs_SG_MY_PH_20191118(Medium Bitrate).mp4" controls="on"></video>
         <h2>Live Your Dreams</h2>
-        <table id="projectinfo">
-            <tr>
-                <td>Client</td>
-                <td class="projectinfovalue">Grab, Disney</td>
-                <td></td>
-                <td>Film Production</td>
-                <td class="projectinfovalue">Passion Pictures</td>
-            </tr>
-            <tr>
-                <td>Agency</td>
-                <td class="projectinfovalue">72andSunny Singapore</td>
-                <td></td>
-                <td>Director</td>
-                <td class="projectinfovalue">Brandon Loh</td>
-            </tr>
-            <tr>
-                <td>Creative Director</td>
-                <td class="projectinfovalue">Daniel Ko</td>
-                <td></td>
-                <td>Photography</td>
-                <td class="projectinfovalue">Wala Wala Pictures</td>
-            </tr>
-            <tr>
-                <td>Junior Writer and Art Director</td>
-                <td class="projectinfovalue">Ang Peng Da</td>
-                <td></td>
-            </tr>
-            </table>
         <p>
-            Grab partnered with Disney for the launch of Frozen 2 in Southeast Asia. Inspired by the theme of the movie, we created a campaign to encourage parents to let their children live their dreams, no matter what they may be. We captured in a thematic film supported by more hardworking in-app challenges. The Frozen prizes and giveaways were highlighted to users through the help of a KV.
+          For many years, children have waited eagerly to relive the magic of Disney’s Frozen. For this highly anticipated sequel, Grab partnered with Disney for its launch campaign across Southeast Asia.
         </p>
         <p>
-           During the process of writing the scripts, we actually had an earlier script that the team really felt for. This was what it looks like.
+          Taking inspiration from the movie, we made a short film to encourage parents to let their children live their dreams, no matter what they may be. This was accompanied by various Frozen 2 prizes and giveaways that Grab users can earn in-app. These prizes were also prominently featured on the KV.
+        </p>
+        <img width="100%" src="/Assets/projects/croppedKV.png">
+        <p>
+          During the process of writing the scripts, we actually had an earlier one that the team really felt for. This is how it goes:
         </p>
         <!--
             Most of the visuals in this campaign were handled by me, with additional support from Mark Ng and Zara Kok. I also helped write some of the scripts, including the following one that the team felt for, but was not produced. This is how it looks after my creative director, Daniel Ko, had cleaned it up.
@@ -149,15 +103,43 @@ are on their feet with a dramatic, emotional Dad shedding tears of pride. Our he
 boy graciously calls out to the lead girl to share the applause, and together, they
 take a bow.
         </p>
-      </div>        
+      </div>
+      <table id="projectinfo">
+        <tr>
+            <td>Client</td>
+            <td class="projectinfovalue">Grab, Disney</td>
+            <td></td>
+            <td>Film Production</td>
+            <td class="projectinfovalue">Passion Pictures</td>
+        </tr>
+        <tr>
+            <td>Agency</td>
+            <td class="projectinfovalue">72andSunny Singapore</td>
+            <td></td>
+            <td>Director</td>
+            <td class="projectinfovalue">Brandon Loh</td>
+        </tr>
+        <tr>
+            <td>Creative Director</td>
+            <td class="projectinfovalue">Daniel Ko</td>
+            <td></td>
+            <td>Photography</td>
+            <td class="projectinfovalue">Wala Wala Pictures</td>
+        </tr>
+        <tr>
+            <td>Junior Writer and Art Director</td>
+            <td class="projectinfovalue">Ang Peng Da</td>
+            <td></td>
+        </tr>
+        </table>
       <div id="separator"></div>
       <section>
         <p><h3>View Other Projects</h3></p>
-        <p><h3><a href="/projects/soundbites.html">Soundbites</h3></p>
-        <p><h3><a href="/projects/Unlimited.html">Unlimited Posters</h3></p>
+        <p><h3><a href="/projects/soundbites.html">Soundbites</a></h3></p>
+        <p><h3><a href="/projects/Unlimited.html">Unlimited Posters</a></h3></p>
         <p><h3><a href="/projects/pong.html">Pong the Chatbot</a></h3></p>
         <p><h3><a href="/projects/whopper.html">Recovery Whopper</a></h3></p>
-        <p><h3><a href="/projects/diabetes.html">Diabetes: A Living Hell</h3></p>
+        <p><h3><a href="/projects/diabetes.html">Diabetes: A Living Hell</a></h3></p>
         <p><h3><a href="/projects/trashbook.html">Trashbook </a></h3></p>
     </section>
       </div>

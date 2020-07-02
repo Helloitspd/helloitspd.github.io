@@ -15,7 +15,7 @@ h1 {
 h2 {
   font-weight: 200;
   font-style: italic;
-  font-size: calc(12px + 1vw);
+  font-size: calc(18px + 1vw);
   transition: 0.5s;
 }
 
@@ -29,12 +29,23 @@ h3 {
 h3 a {
   text-decoration: none;
   color: #b4b4b4;
-  font-style: normal;
+  font-weight: 200;
+  font-style: italic;
+  font-size: calc(12px + 0.5vw);
+  transition: 1.5s;
 }
 
 h3 a:hover {
   font-style: italic;
   color: #e91b00;
+}
+
+h4 {
+  font-weight: 200;
+  font-style: italic;
+  font-size: 14px;
+  text-align: center;
+  color: #555555;
 }
 
 #nav {
@@ -150,6 +161,16 @@ h3 a:hover {
 #projectstory {
   padding-left: calc(34vw - 50px);
   padding-right: 16vw;
+  padding-top: 150px;
+  font-size: large;
+  line-height: 1.6em;
+}
+
+#projectstory2 {
+  padding-left: calc(34vw - 50px);
+  padding-right: 16vw;
+  font-size: large;
+  line-height: 1.6em;
 }
 
 @media screen and (max-aspect-ratio: 16/10) {
@@ -181,6 +202,7 @@ h3 a:hover {
   width: 100%;
   font-size: 12px;
   table-layout: fixed;
+  padding-top: 50px;
 }
 
 .projectinfovalue {
@@ -329,4 +351,31 @@ h3 a:hover {
   width: 50%;
   background-color: #b4b4b4;
   margin-top: 150px;
+}
+
+.img50center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.img35center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
+#soundbitesvideo {
+  list-style: none;
+  padding: 0;
+}
+
+#soundbitesvideo li {
+  display: inline;
+}
+
+#soundbitesvideo li video {
+  width: 23%;
 }
