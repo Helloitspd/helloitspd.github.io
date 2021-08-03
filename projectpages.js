@@ -45,7 +45,7 @@ function appleCurrent(a) {
 
 function appleShow(a) {
   var x;
-  var apple = document.getElementsByClassName("mySlides2");
+  var apple = document.getElementsByClassName("myApple");
   if (a > apple.length) {
     appleIndex = 1;
   }
