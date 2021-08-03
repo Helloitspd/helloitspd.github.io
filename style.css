@@ -221,6 +221,10 @@ h4 {
   display: inline-flex;
 }
 
+.projectslider2 {
+  display: inline-flex;
+}
+
 .sliderbutton {
   display: -webkit-flex; /* Safari */
   display: flex;
@@ -234,7 +238,21 @@ h4 {
   outline: none;
 }
 
+.sliderbutton2 {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  -webkit-align-items: center; /* Safari 7.0+ */
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  width: 30px;
+  outline: none;
+}
+
 .sliderbutton:hover {
+  background-color: #e4e4e4;
+}
+.sliderbutton2:hover {
   background-color: #e4e4e4;
 }
 
@@ -249,6 +267,10 @@ h4 {
 
 .mySlides {
   width: calc(50vw + 50px);
+  display: none;
+}
+
+.mySlides2 {
   display: none;
 }
 
