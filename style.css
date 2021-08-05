@@ -221,10 +221,6 @@ h4 {
   display: inline-flex;
 }
 
-.projectslider2 {
-  display: inline-flex;
-}
-
 .sliderbutton {
   display: -webkit-flex; /* Safari */
   display: flex;
@@ -235,17 +231,6 @@ h4 {
   width: 30px;
   margin-left: 10px;
   margin-right: 10px;
-  outline: none;
-}
-
-.sliderbutton2 {
-  display: -webkit-flex; /* Safari */
-  display: flex;
-  -webkit-align-items: center; /* Safari 7.0+ */
-  align-items: center;
-  background-color: transparent;
-  border: none;
-  width: 30px;
   outline: none;
 }
 
@@ -267,10 +252,6 @@ h4 {
 
 .mySlides {
   width: calc(50vw + 50px);
-  display: none;
-}
-
-.myApple {
   display: none;
 }
 
